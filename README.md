@@ -5,7 +5,7 @@
 
 After Installing Nodejs, Go to commandline and the directory:
 
-##Type:
+###Type:
 
 ### `npm start`
 
