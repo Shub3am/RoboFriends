@@ -11,11 +11,11 @@ const App = () => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => res.json())
       .then((usr) => setRobots(usr))
-      .then(() => console.log("done"))
+
       .catch((err) => {
         console.log("Eror Detected, Kindly Check");
       });
-  }, []);
+  }, [searchField]);
   const Searcher = (evt) => {
     setSearchField(evt.target.value.toLowerCase());
   };
